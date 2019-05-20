@@ -7,7 +7,7 @@
   "startup": "before",
   "boot": "auto",
   "host_network": true,
-  "arch": ["armhf"],
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "privileged": [
     "SYS_ADMIN",
     "SYS_RAWIO"
